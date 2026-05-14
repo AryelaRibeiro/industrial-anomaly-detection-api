@@ -1,4 +1,4 @@
-# Sentinela Industrial API
+# IronWall API
 
 > Real-time anomaly detection API for Operational Technology (OT) networks, built with Node.js and gRPC.
 
@@ -6,7 +6,7 @@
 
 ## Sobre o Projeto
 
-O **Sentinela Industrial** é um sistema de detecção de anomalias em tempo real para redes de Tecnologia Operacional (OT). Desenvolvido como TCC, o sistema monitora fluxos de dados de automação industrial (sensores, PLCs, gateways IIoT) para identificar padrões de ataque como **Man-in-the-Middle**, injeção de falsos comandos e **Replay attacks** que possam comprometer linhas de produção.
+O **IronWall** é um sistema de detecção de anomalias em tempo real para redes de Tecnologia Operacional (OT). Desenvolvido como TCC, o sistema monitora fluxos de dados de automação industrial (sensores, PLCs, gateways IIoT) para identificar padrões de ataque como **Man-in-the-Middle**, injeção de falsos comandos e **Replay attacks** que possam comprometer linhas de produção.
 
 ---
 
