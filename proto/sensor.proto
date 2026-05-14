@@ -1,0 +1,29 @@
+syntax = "proto3";
+package sentinela;
+
+service SensorService {
+  rpc EnviarDados (SensorRequest) returns (SensorResponse);
+  rpc StatusSistema (Empty) returns (StatusResponse);
+}
+
+message Empty {}
+
+message SensorRequest {
+  string device_id = 1;
+  string token     = 2;   // para autenticação
+  float temperatura = 3;
+  float pressao     = 4;
+  float frequencia  = 5;
+  int64 timestamp   = 6;
+}
+
+message SensorResponse {
+  bool anomalia       = 1;
+  float score         = 2;
+  string acao         = 3;  // "normal" | "alerta" | "isolamento"
+}
+
+message StatusResponse {
+  bool authenticator_ok = 1;
+  bool ml_engine_ok     = 2;
+}
