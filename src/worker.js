@@ -4,6 +4,8 @@ const { workerData, parentPort } = require('worker_threads');
 function calcularScore(dados) {
   const { temperatura, pressao, frequencia } = dados;
 
+  
+  // TODO: inplementar ML
   // Limites normais (ajuste com dados reais do TCC)
   const desvios = [
     Math.abs(temperatura - 75) / 20,

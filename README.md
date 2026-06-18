@@ -68,13 +68,14 @@ sentinela-industrial/
 ### Pré-requisitos
 
 - Node.js v18+
+- Docker
 - npm
 
 ### Instalação
 
 ```bash
 # Clone o repositório
-git clone https://github.com/SEU_USUARIO/sentinela-industrial-api.git
+git clone https://github.com/AryelaRibeiro/sentinela-industrial-api.git
 cd sentinela-industrial-api
 
 # Instale as dependências

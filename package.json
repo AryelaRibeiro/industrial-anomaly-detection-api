@@ -1,14 +1,14 @@
 {
   "name": "sentinela-industrial",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "server.js",
   "scripts": {
     "dev": "node ./src/server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Aryela Ribeiro Marques",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "@grpc/grpc-js": "^1.14.3",

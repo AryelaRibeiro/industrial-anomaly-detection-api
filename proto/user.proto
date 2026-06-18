@@ -1,0 +1,10 @@
+syntax = "proto3";
+package sentinela;
+
+message Empty {}
+
+message User {
+  string id = 1;
+  string name = 2;
+  float email = 3;
+}
