@@ -85,7 +85,7 @@ npm install
 ### Rodando o servidor
 
 ```bash
-node src/server.js
+docker compose up -d --build
 ```
 
 Saída esperada:
